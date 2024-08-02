@@ -12,8 +12,8 @@ Patch and script files for building SONiC 202211 version.
 
     make init
     
-    bash ../G3748/SONIC-202211-patch/sonic_202211_apply_patch_bullseye.sh
-    bash ../G3748/SONIC-202211-patch/sonic_202211_apply_smc_patch_bullseye.sh
+    bash ../G3748/SONiC-202211-patch/sonic_202211_apply_patch_bullseye.sh
+    bash ../G3748/SONiC-202211-patch/sonic_202211_apply_smc_patch_bullseye.sh
     
     NOBUSTER=1 NOSTRETCH=1 make configure PLATFORM=marvell-arm64 PLATFORM_ARCH=arm64
     
